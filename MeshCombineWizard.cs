@@ -1,7 +1,10 @@
+#if UNTIY_EDITOR
+
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
 using UnityEngine.Rendering;
+
 
 public class MeshCombineWizard : ScriptableWizard
 {
@@ -121,3 +124,4 @@ public class MeshCombineWizard : ScriptableWizard
 		resultGO.transform.position = originalPosition;
 	}
 }
+#endif
