@@ -1,4 +1,4 @@
-#if UNTIY_EDITOR
+#if UNITY_EDITOR
 
 using UnityEngine;
 using UnityEditor;
